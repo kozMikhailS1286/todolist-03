@@ -88,7 +88,7 @@ export const AddItemFormErrorsStory1: FC<AddItemFormPropsType> = (args: AddItemF
                    helperText={error}
         />
         <IconButton color="primary" onClick={addItem}>
-            <AddBox />
+            <AddBox />!!
         </IconButton>
     </div>
 }
